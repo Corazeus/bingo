@@ -1,0 +1,49 @@
+.navbar {
+    position: top;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    background: #6687a4;
+    padding: 0.5rem 0;
+    z-index: 9999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    color: aliceblue;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: x-large;
+    font-family: "JetBrains Mono",monospace;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.5s ease;
+}
+
+li :active{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+li :visited{
+    color: rgb(13, 14, 14);
+}
+
+li :link{
+    color: rgb(13, 14, 14);
+}
+
+li :hover{
+    font-size: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
